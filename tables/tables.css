@@ -1,0 +1,26 @@
+.my-table {
+  margin: 1em 0;
+  background: #34495E;
+  color: #fff;
+  border-radius: .4em;
+}
+.my-table tr {
+  border-top: 1px solid #46637f;
+  border-bottom: 1px solid #46637f;
+}
+
+.my-table th, .my-table td {
+  text-align: left;
+  padding: .5em 1em;
+}
+
+.my-table th {
+  color: #dd5;
+}
+
+.my-table td:first-child {
+  padding-top: .5em;
+}
+.my-table td:last-child {
+  padding-bottom: .5em;
+}

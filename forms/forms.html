@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Forms</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Archivo|Archivo+Narrow:400,600"
+      rel="stylesheet"
+    />
+    <link href="../css/site.css" rel="stylesheet" />
+    <link href="forms.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <h1>Forms</h1>
+    <h2>Unstyled form</h2>
+    <form action="#" method="post">
+      <div class="field">
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Full name, please" />
+      </div>
+      <div class="field">
+        <label for="password">Password</label>
+        <input type="password" id="password" />
+      </div>
+      <div class="field">
+        <label for="email">Email</label>
+        <input type="email" id="email" />
+      </div>
+      <div class="field">
+        <label for="birth">Date of birth</label>
+        <input type="date" id="birth" />
+      </div>
+      <div class="field">
+        <label for="color">Product color</label>
+        <select id="color">
+          <option value="">Select one…</option>
+          <option value="blue">Blue</option>
+          <option value="black">Black</option>
+          <option value="awesome">Hotpink</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="items">Number of items</label>
+        <input type="number" id="items" />
+      </div>
+      <fieldset class="field">
+        <legend>Subscription type</legend>
+        <label>
+          <input
+            type="radio"
+            id="subscription-yearly"
+            value="yearly"
+            name="subscription"
+          />
+          Yearly – 90€/year
+        </label>
+        <label>
+          <input
+            type="radio"
+            id="subscription-monthly"
+            value="monthly"
+            name="subscription"
+          />
+          Monthly – 10€/month
+        </label>
+        <label>
+          <input
+            type="radio"
+            id="subscription-weekly"
+            value="weekly"
+            name="subscription"
+          />
+          Weekly – 3€/week
+        </label>
+      </fieldset>
+      <div class="field">
+        <label for="message">Message</label>
+        <textarea id="message" cols="40" rows="10"></textarea>
+      </div>
+      <div class="field">
+        <label
+          ><input type="checkbox" id="terms" /> I accept the Terms &amp;
+          Conditions</label
+        >
+      </div>
+      <button type="submit">Send</button>
+    </form>
+
+    <h2>Styled form</h2>
+    <form action="#" method="post" class="my-form">
+      <div class="field">
+        <label for="name2">Name</label>
+        <input type="text" id="name2" placeholder="Full name, please" />
+      </div>
+      <div class="field">
+        <label for="password2">Password</label>
+        <input type="password" id="password2" />
+      </div>
+      <div class="field">
+        <label for="email2">Email</label>
+        <input type="email" id="email2" />
+      </div>
+      <div class="field">
+        <label for="birth2">Date of birth</label>
+        <input type="date" id="birth2" />
+      </div>
+      <div class="field">
+        <label for="color2">Product color</label>
+        <select id="color2">
+          <option value="">Select one…</option>
+          <option value="blue">Blue</option>
+          <option value="black">Black</option>
+          <option value="awesome">Hotpink</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="items2">Number of items</label>
+        <input type="number" id="items2" />
+      </div>
+      <fieldset class="field">
+        <legend>Subscription type</legend>
+        <label>
+          <input
+            type="radio"
+            id="subscription-yearly2"
+            value="yearly"
+            name="subscription2"
+          />
+          Yearly – 90€/year
+        </label>
+        <label>
+          <input
+            type="radio"
+            id="subscription-monthly2"
+            value="monthly"
+            name="subscription2"
+          />
+          Monthly – 10€/month
+        </label>
+        <label>
+          <input
+            type="radio"
+            id="subscription-weekly2"
+            value="weekly"
+            name="subscription2"
+          />
+          Weekly – 3€/week
+        </label>
+      </fieldset>
+      <div class="field">
+        <label for="message2">Message</label>
+        <textarea id="message2" cols="40" rows="10"></textarea>
+      </div>
+      <div class="field">
+        <label
+          ><input type="checkbox" id="terms2" /> I accept the Terms &amp;
+          Conditions</label
+        >
+      </div>
+      <button type="submit">Send</button>
+    </form>
+  </body>
+</html>
