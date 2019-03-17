@@ -1,0 +1,56 @@
+.content{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
+  justify-content: center;
+}
+
+.element {
+  width: 150px;
+  height: 100px;
+  background-color: hotpink;
+  margin: 0 30px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, .4);
+  color: white;
+  padding: 20px;
+  transition: all 1s;
+}
+ @keyframes myAnimation{
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes myOtherAnimation{
+  0% {
+    transform: translateY(50px);
+  }
+  50% {
+    transform: translateX(-50px) translateY(50px);
+  }
+  75% {
+    transform: translateX(0px) translateY(-100px);
+  }
+  100% {
+    transform: scale(1.5) rotate(180deg);
+  }
+}
+
+.animation1 {
+  animation: myAnimation 3s linear infinite alternate;
+}
+
+.animation2 {
+  animation: myAnimation 3s ease-out 3s infinite;
+}
+
+.animation3 {
+  animation: myOtherAnimation 3s cubic-bezier(.04,.92,.57,1.15) 3 alternate;
+}
+
+.animation4 {
+  animation: myOtherAnimation 10s ease-in-out infinite;
+}

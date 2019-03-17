@@ -1,0 +1,33 @@
+.content{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
+  justify-content: center;
+}
+
+.element {
+  width: 150px;
+  height: 100px;
+  background-color: hotpink;
+  margin: 0 30px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, .4);
+  color: white;
+  padding: 20px;
+  transition: all 1s;
+}
+
+.transition1:hover .element{
+  transform: scale(1.5) rotate(40deg);
+}
+
+.transition2:hover .element{
+  background-color: lightblue;
+}
+
+.transition3:hover .element{
+  transform: scaleY(2);
+}
+
+.transition4:hover .element{
+  transform: rotate(360deg);
+}

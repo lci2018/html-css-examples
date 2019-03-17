@@ -16,6 +16,26 @@
   </head>
 
   <body>
-    (WIP)
+    <h1>Audio and Video</h1>
+    <h2>Audio</h2>
+    <audio controls>
+      <source src="audio.mp3" type="audio/mpeg" />
+    </audio>
+    <h2>Video</h2>
+    <video width="320" height="240" controls>
+      <source src="video.mp4" type="video/mp4" />
+    </video>
+    <h2>Embed iframe</h2>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/QILiHiTD3uc"
+      frameborder="0"
+      allowfullscreen
+    ></iframe>
+    <p>
+      Iframes might not load on a local file, on Firefox, but they will work on
+      a server.
+    </p>
   </body>
 </html>

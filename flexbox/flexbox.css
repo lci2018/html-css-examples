@@ -1,0 +1,35 @@
+.wrapper {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.element {
+	min-height: 2em;
+	background: #ececec;
+	border: 1px solid;
+	padding: .3em;
+}
+
+.wrapper2 .element{ flex-grow: 1; }
+
+.wrapper3 .element{ flex-basis: 200px; }
+
+.wrapper4 .element{ flex-basis: 200px; }
+.wrapper4 .element4{ flex-shrink: 2; }
+
+.wrapper5 {
+  flex-direction: column;
+}
+
+.wrapper6 { flex-wrap: wrap; }
+.wrapper6 .element{
+  flex-basis: 25%;
+  flex-grow: 1;
+}
+
+.wrapper7 {
+  background-color: antiquewhite;
+  min-height: 300px;
+  justify-content: space-evenly;
+  align-items: center;
+}

@@ -1,0 +1,40 @@
+.example {
+  width: 50%;
+  height: 100px;
+  background-color: lightgrey;
+  margin-bottom: 50px;
+}
+
+.boxshadow1 {
+  box-shadow: 5px 5px 3px rgba(0, 0, 0, .4);
+}
+
+.boxshadow2 {
+  box-shadow: 10px 10px 3px 3px rgba(0, 0, 0, .4);
+}
+
+.boxshadow3 {
+  box-shadow: inset 5px 5px 3px rgba(0, 0, 0, .4);
+}
+
+.boxshadow4 {
+  box-shadow: -5px 5px 0 lightblue, 5px -5px 0 hotpink;
+}
+
+.textexample {
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.textshadow1 {
+   text-shadow: 2px 2px 3px rgba(0, 0, 0, .4);
+}
+
+.textshadow2 {
+   text-shadow: 4px 4px 0 rgba(125, 125, 255, .4);
+}
+
+.textshadow3 {
+  color: rgba(0, 0, 0, .3);
+  text-shadow: 5px 5px 0 hotpink, 10px 10px 0 lightblue;
+}

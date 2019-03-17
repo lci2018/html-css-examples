@@ -1,0 +1,37 @@
+.example {
+  width: 50%;
+  margin-bottom: 20px;
+  height: 80px;
+  border: 1px solid rgba(0, 0, 0, .2);
+  background-repeat: no-repeat;
+}
+
+.gradient1 {
+  background-image: linear-gradient(180deg, #FC5C7D, #6A82FB);
+}
+
+.gradient2 {
+  background-image: linear-gradient(to bottom right, #40e0d0 0%, #ff8c00 40%, #ff0080 80%);
+}
+
+
+.gradient3 {
+  background-image: linear-gradient(90deg, #ffc0cb 50%, #800080 50%);
+  background-size: 20px;
+  background-repeat: repeat;
+}
+
+.gradient4 {
+  height: 200px;
+  background-image: radial-gradient(circle at 50% 50%, orange, red);
+}
+
+.gradient5 {
+  height: 200px;
+  background-image: repeating-linear-gradient(30deg, #FC5C7D, #FC5C7D 10%, #6A82FB 10%, #6A82FB 20%);
+}
+
+.gradient6 {
+  height: 200px;
+  background-image: repeating-radial-gradient(circle at 50% 50%, #FC5C7D, #FC5C7D 7%, black 10%);
+}
